@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:layout_width="300dp"
+        android:layout_height="170dp"
+        android:id="@+id/video_view"
+        android:focusable="true"/>
+
+    <TextView
+        android:id="@+id/tv_steps_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:text="COBA CUSTOM DIALOG"/>
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        android:textSize="10sp"
+        android:layout_gravity="center"/>
+
+
+
+
+
+
+
+</LinearLayout>
